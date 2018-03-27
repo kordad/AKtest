@@ -1,0 +1,60 @@
+body{
+	background: #f7f6ff;
+	line-height: 1.6rem;
+}
+.stopka{
+	height:255px;
+	background: url(images/stopka.jpg);
+	background-size: cover;
+}
+.kolumny{
+	text-align: center;
+	margin: 3rem 0;
+}
+.kolumny img{
+	width: 60%;
+	margin: 1rem auto;
+	display: block;
+}
+h3{
+	font-weight: 600;
+	font-size: 1.5rem;
+	color:#4d5661;
+}
+.ekran{
+	height: 535px;
+	background:url(images/ekran.jpg);
+	background-size: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.sygnatura{
+	padding: 1rem;
+	background:url(images/stopka.jpg);
+	background-size: 100%;
+	text-align: center;
+	}
+.sygnatura h1{
+	color:#fff;
+}
+@media(max-width:960px){
+.ekran{
+	height: 200px;
+	background:url(images/ekran.jpg);
+	background-size: 100%;
+}	
+}
+.napis{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	opacity:0;
+	animation:anim1 1s ease-in-out infinite;
+}
+@keyframes anim1{
+	50%{opacity:1;}
+	
+	}
